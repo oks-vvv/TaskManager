@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManager.Contracts\TaskManager.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TaskManager\" />
+    <Folder Include="Process\" />
+  </ItemGroup>
+</Project>
